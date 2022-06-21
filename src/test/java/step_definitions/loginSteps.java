@@ -19,7 +19,6 @@ public class loginSteps {
     public void users_enters_login_credentials(String user, String statusCode) {
         int statusC = Integer.parseInt(statusCode);
         jsonPath = GetToken.login(user, statusC);
-
     }
 
     @When("user has this profile {string}")
@@ -37,6 +36,9 @@ public class loginSteps {
         List<String> permList = new ArrayList<>(Arrays.asList(arr));
 
         assertThat(getPermissionList, is(permList));
+
+
+
     }
 
 }

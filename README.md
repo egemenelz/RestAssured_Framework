@@ -19,7 +19,7 @@ This project includes server side testing.
 
 ```
 cd "whereveryouwanttoclone"
-git clone https://github.com/egemenelz/Automation-Api-Test.git
+git clone https://github.com/egemenelz/RestAssured_Framework.git
 
 ```
 

@@ -14,7 +14,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <!--VERSIONS OF DEPENDENCIES      -->
         <rest-assured.version>5.1.1</rest-assured.version>
-        <cucumber.version>7.3.3</cucumber.version>
+        <cucumber.version>7.4.1</cucumber.version>
         <jackson-databind.version>2.13.3</jackson-databind.version>
         <lombok.version>1.18.24</lombok.version>
     </properties>
@@ -104,6 +104,13 @@
             <version>${cucumber.version}</version>
             <scope>test</scope>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-core -->
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-core</artifactId>
+            <version>${cucumber.version}</version>
+        </dependency>
+
         <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
